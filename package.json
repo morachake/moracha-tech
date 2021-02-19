@@ -4,7 +4,7 @@
   "description": "Portfolio Landing Page",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node script.js"
   },
   "author": "Moracha",
   "license": "MIT",
