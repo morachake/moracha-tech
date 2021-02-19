@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Landing Page",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moracha",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jquery": "^3.5.5"
+  }
+}
