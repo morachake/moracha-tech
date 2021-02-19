@@ -10,5 +10,14 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jquery": "^3.5.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob-d242/moracha-tech.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacob-d242/moracha-tech/issues"
+  },
+  "homepage": "https://github.com/jacob-d242/moracha-tech#readme"
 }
