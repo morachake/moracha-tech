@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "Deploy": "echo \"Error: no test specified\" && exit 1"
+    "Deploy": "morachatech"
   },
   "repository": {
     "type": "git",
@@ -20,4 +20,5 @@
   "bugs": {
     "url": "https://github.com/jacob-d242/moracha-tech/issues"
   },
-  "homepage": "https://github.com/jacob-d242/moracha-
+  "homepage": "https://github.com/jacob-d242/moracha-tech#readme"
+}

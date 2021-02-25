@@ -220,11 +220,97 @@ section{
   .max-width {
     padding: 0 50px;
   }
+.about .about-content .column{
+width: 50%;
+}
 }
 @media (max-width: 991px) {
   .navbar.sticky {
     background-color: #fff;
   }
+}
+@media (max-width: 1300px) {
+ .home .max-width {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1104px) {
+  .about .about-content .left img{
+    height: 350px;
+    width: 350px;
+  }
+ }
+@media (max-width: 700px) {
+  .about .about-content .left img{
+    height: 250px;
+    width: 250px;
+  }
+  .about .about-content .right .text{
+    font-size: 15px;
+
+  }
+  .about .about-content .right p{
+    font-size: 10px;
+
+  }
+  .about .about-content .right a{
+    font-size: 10px;
+
+  }  
+ }
+ @media (max-width: 800px) {
+  .about .about-content .left img{
+    height: 250px;
+    width: 250px;
+  }
+  .about .about-content .right .text{
+    font-size: 12px;
+
+  }
+  .about .about-content .right p{
+    font-size: 10px;
+
+  }
+  .about .about-content .right a{
+    font-size: 10px;
+
+  }  
+  @media (max-width: 400px) {
+    .about .about-content .left img{
+      height: 100px;
+      width: 100px;
+    }
+    .about .about-content .right .text{
+      font-size: 15px;
+  
+    }
+    .about .about-content .right p{
+      font-size: 10px;
+  
+    }
+    .about .about-content .right a{
+      font-size: 10px;
+  
+    }  
+   }
+ }
+ @media (max-width: 500px) {
+  .about .about-content .left img{
+    height: 200px;
+    width: 200px;
+  }
+  .about .about-content .right .text{
+    font-size: 10px;
+
+  }
+  .about .about-content .right p{
+    font-size: 8px;
+
+  }
+  .about .about-content .right a{
+    font-size: 8px;
+
+  }  
 }
 @media (max-width: 990px) {
   .menu-btn {
