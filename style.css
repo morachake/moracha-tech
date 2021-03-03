@@ -4,6 +4,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+html{
+  scroll-behavior: auto;
+}
 .max-width {
   max-width: 1300px;
   padding: 0 80px;
@@ -18,7 +21,7 @@
   transition: all 0.3s ease;
 }
 .navbar.sticky {
-  background-color: #fff;
+  background-color: crimson;
   padding: 15px 0;
 }
 .navbar .max-width {
@@ -503,7 +506,12 @@ margin-right: 10px;
 color: #111;
 background: none;
 }
-/* footer styling*/
+footer styling*/
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+
 footer{
   background:#111 ;
   padding: 20px 23px;
@@ -514,8 +522,24 @@ footer{
    text-decoration: none;
  }
  footer span a:hover{
-  text-decoration: underline;
+  text-decoration: underline;}
+
+.media .social-media{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
 }
+.media .social-media i{ 
+  padding: 10px;
+   display: inline-block;
+}
+.media .social-media i{
+  font-size: 18px;
+  border: 1px solid crimson;
+  border-radius: 8px;
+}
+
 /*media for responsive querries*/
 @media (max-width: 1104px) {
   .home .max-width {
